@@ -37,7 +37,7 @@ jobs:
         run: node runner-chrome.js
   	env:
      TARGET_TOKEN_ELECTRON: ${{ secrets.TARGET_TOKEN_CHROME }}
-
+     
   cypress-firefox-tests:
     runs-on: ubuntu-latest
   	container:
